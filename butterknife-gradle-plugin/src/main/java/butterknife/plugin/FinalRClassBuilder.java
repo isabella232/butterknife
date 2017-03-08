@@ -26,7 +26,8 @@ import static javax.lang.model.element.Modifier.STATIC;
 public final class FinalRClassBuilder {
   private static final String SUPPORT_ANNOTATION_PACKAGE = "android.support.annotation";
   private static final String[] SUPPORTED_TYPES = {
-      "array", "attr", "bool", "color", "dimen", "drawable", "id", "integer", "string"
+      "anim", "array", "attr", "bool", "color", "dimen", "drawable", "id", "integer", "layout", "menu", "plurals",
+      "string", "style"
   };
 
   private FinalRClassBuilder() { }
