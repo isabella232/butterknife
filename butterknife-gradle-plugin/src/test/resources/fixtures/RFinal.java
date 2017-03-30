@@ -56,4 +56,8 @@ public final class R {
   public static final class style {
     public static final int res = 0x7f040014;
   }
+
+  public static final class styleable {
+    public static final int res = 0x7f040015;
+  }
 }

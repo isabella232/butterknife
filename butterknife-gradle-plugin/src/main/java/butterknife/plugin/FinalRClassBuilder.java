@@ -27,7 +27,7 @@ public final class FinalRClassBuilder {
   private static final String SUPPORT_ANNOTATION_PACKAGE = "android.support.annotation";
   private static final String[] SUPPORTED_TYPES = {
       "anim", "array", "attr", "bool", "color", "dimen", "drawable", "id", "integer", "layout", "menu", "plurals",
-      "string", "style"
+      "string", "style", "styleable"
   };
 
   private FinalRClassBuilder() { }

@@ -15,6 +15,7 @@ import android.support.annotation.MenuRes;
 import android.support.annotation.PluralsRes;
 import android.support.annotation.StringRes;
 import android.support.annotation.StyleRes;
+import android.support.annotation.StyleableRes;
 
 public final class R2 {
   public static final class anim {
@@ -85,5 +86,10 @@ public final class R2 {
   public static final class style {
     @StyleRes
     public static final int res = 0x7f040014;
+  }
+
+  public static final class styleable {
+    @StyleableRes
+    public static final int res = 0x7f040015;
   }
 }
